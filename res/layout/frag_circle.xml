@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_base_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="圈子"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.4dp"
+        android:background="@color/color_cccccc" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/ll_circle_title1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F9F9F9"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/tv_circle1_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="2dp"
+                android:text="正在热聊/"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_circle1_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TRENDS"
+                android:textColor="#9B9B9B" />
+        </LinearLayout>
+
+        <com.linktownld.view.MyListView
+            android:id="@+id/lv_home_content1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </com.linktownld.view.MyListView>
+
+        <LinearLayout
+            android:id="@+id/ll_circle_title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F9F9F9"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/tv_circle2_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="2dp"
+                android:text="你关注的/"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_circle2_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YOURS"
+                android:textColor="#9B9B9B" />
+        </LinearLayout>
+
+        <com.linktownld.view.MyListView
+            android:id="@+id/lv_home_content2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </com.linktownld.view.MyListView>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="@color/bg_base_content" >
+    
+<com.linktownld.view.RoundImageView 
+    android:id="@+id/rimg_avatar"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:src="@drawable/avatar1"
+    android:layout_marginTop="4dp"/>
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="6dp">
+    <TextView 
+        android:id="@+id/tv_friend_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="好好姑娘"
+        android:textColor="@color/black"/>
+    <TextView 
+        android:id="@+id/tv_friend_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="167cm 68kg"
+        android:layout_marginTop="2dp"/>
+    <TextView 
+        android:id="@+id/tv_friend_describe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你和ta穿衣偏好非常接近"
+        android:background="@color/yellow"
+         android:layout_marginTop="2dp"/>
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_vertical|right">
+    <TextView 
+        android:id="@+id/tv_friend_fans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="34125粉丝"
+        android:layout_marginTop="2dp"/>
+    <TextView 
+        android:id="@+id/tv_friend_notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+关注"
+        android:background="@drawable/bg_scene_join"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>
+</LinearLayout>

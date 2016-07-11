@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/white" 
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="06/28" />
+
+    <LinearLayout
+        android:id="@+id/ll_my_backpic"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/avatar4" >
+
+        <TextView
+            android:id="@+id/tv_pic_nums"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4图"
+            android:layout_gravity="right" 
+            android:paddingTop="4dp"
+            android:layout_marginRight="6dp"
+            android:gravity="right"/>
+    </LinearLayout>
+
+</LinearLayout>

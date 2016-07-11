@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 圆形的ImageView -->
+    <declare-styleable name="RoundImageView">
+
+        <!-- 边框的宽度 -->
+        <attr name="border_width" format="dimension" />
+        <!-- 边框的颜色 -->
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+</resources>

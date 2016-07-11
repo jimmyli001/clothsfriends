@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_base_content"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_base" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_marginTop="6dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hinticon"
+            android:padding="12dp" />
+        
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择正确的地点＆时间，有助于帮助您匹配合适的店铺和服务者！"
+            android:layout_marginRight="36dp"
+            android:textColor="@color/color_808080"
+            android:textSize="12sp"
+            />
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:layout_marginTop="4dp">
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="14dp">
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择服务地区"
+                android:textSize="16sp"
+                android:textColor="@color/color_4c4c4c"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"/>
+            <ImageView 
+                android:id="@+id/img_area_go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/moreicon"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上海上海松江区"
+                android:textSize="14sp"
+                android:layout_toLeftOf="@+id/img_area_go"
+                android:layout_marginRight="8dp"
+                 android:textColor="@color/color_808080"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="0.4dp"
+            android:background="#dbdbdb"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"/>
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="14dp">
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择时间"
+                android:textSize="16sp"
+                android:textColor="@color/color_4c4c4c"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"/>
+            <ImageView 
+                android:id="@+id/img_area_go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/moreicon"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016/06/01  16:00"
+                android:textSize="14sp"
+                android:layout_toLeftOf="@+id/img_area_go"
+                android:layout_marginRight="8dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/color_808080"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
