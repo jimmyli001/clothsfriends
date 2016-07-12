@@ -9,8 +9,8 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.goodclothes.activity.SceneDetailActivity;
 import com.linktownld.R;
-import com.linktownld.activity.SceneDetailActivity;
 public class CircleFragment extends BaseFragment {
 	
 	private TextView tv_scene_detail;

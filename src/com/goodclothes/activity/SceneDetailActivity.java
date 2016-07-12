@@ -1,4 +1,4 @@
-package com.linktownld.activity;
+package com.goodclothes.activity;
 
 import android.content.Context;
 import android.content.Intent;
