@@ -6,9 +6,9 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
 
+import com.goodclothes.activity.BaseActivity;
+import com.goodclothes.activity.SelectGoodsActivity;
 import com.linktownld.R;
-import com.linktownld.activity.BaseActivity;
-import com.linktownld.activity.SelectGoodsActivity;
 
 /**
  * 下单 （选择地点，时间）界面 

@@ -1,4 +1,4 @@
-package com.linktownld.activity;
+package com.goodclothes.activity;
 
 import com.linktownld.R;
 import com.linktownld.adapter.CommentListAdapter;

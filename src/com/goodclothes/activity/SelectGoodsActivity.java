@@ -1,4 +1,4 @@
-package com.linktownld.activity;
+package com.goodclothes.activity;
 
 
 import android.graphics.Color;

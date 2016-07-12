@@ -90,7 +90,7 @@
         android:theme="@style/AppTheme" >
 
         <activity
-            android:name="com.linktownld.activity.MainActivity"
+            android:name="com.goodclothes.activity.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -99,19 +99,19 @@
             </intent-filter>
         </activity>
         <activity 
-            android:name="com.linktownld.activity.SceneDetailActivity">
+            android:name="com.goodclothes.activity.SceneDetailActivity">
         </activity>
         <activity 
-            android:name="com.linktownld.activity.CommentListActivity">
+            android:name="com.goodclothes.activity.CommentListActivity">
         </activity>
         <activity 
-            android:name="com.linktownld.activity.MyServiceListAvtivity">
+            android:name="com.goodclothes.activity.MyServiceListAvtivity">
         </activity>
         <activity 
             android:name="com.linktownld.activity.palceorder.PaceOrderByAdressActivity">
         </activity>
         <activity 
-            android:name="com.linktownld.activity.SelectGoodsActivity">
+            android:name="com.goodclothes.activity.SelectGoodsActivity">
         </activity>
     </application>
 
